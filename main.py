@@ -4,11 +4,11 @@ import xlrd
 import time
 
 headers = {
-    'Cookie':'_XIGUASTATE=XIGUASTATEID=530c7b23ce004356b2a5bca8c70665aa; ASP.NET_SessionId=xgpt5tlbos2ow4u13lwwfa2p; _chl=key=BaiduOrginal; _stopKey=124.234.159.84; Hm_lvt_72aa476a79cf5b994d99ee60fe6359aa=1503903360,1504573627,1504677364,1504691283; Hm_lpvt_72aa476a79cf5b994d99ee60fe6359aa=1504834749; _XIGUA=UserId=fe71939e84c84c78&Account=07565d5e3f5bb33c&checksum=b586ba1b2355; LV2=1; SERVERID=0a1db1b547a47b70726acefc0225fff8|1504834831|1504830843',
+    'Cookie':'_XIGUASTATE=XIGUASTATEID=530c7b23ce004356b2a5bca8c70665aa; ASP.NET_SessionId=xgpt5tlbos2ow4u13lwwfa2p; _stopKey=124.234.159.84; _chl=key=weixinrewen&word=5b6u5L+h5YWs5LyX5Y+354iG5paH; Hm_lvt_72aa476a79cf5b994d99ee60fe6359aa=1504573627,1504677364,1504691283,1504967901; Hm_lpvt_72aa476a79cf5b994d99ee60fe6359aa=1505094071; _XIGUA=UserId=40ed819e6fe90d08&Account=07565d5e3f5bb33c&checksum=cee5f032b92f; LV2=1; SERVERID=2e7fd5d7f4caba1a3ae6a9918d4cc9a6|1505094145|1505090870',
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.3368.400 QQBrowser/9.6.11860.400'
 }
 
-data = xlrd.open_workbook(r'C:\Users\eeehu\Documents\Tencent Files\3416500170\FileRecv\宁静致远资源表(1).xlsx')
+data = xlrd.open_workbook(r'C:\Users\eeehu\Documents\Tencent Files\3416500170\FileRecv\总资源表.xls')
 sheet = data.sheet_by_index(0)
 
 sheetRows = int(input('开始行：')) - 1
